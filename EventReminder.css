@@ -1,0 +1,49 @@
+﻿.btn{ padding:10px 20px;
+margin:2px;}
+
+.jumbotron{
+text-align:center;}
+
+#addEventBox{
+width:500px;
+padding:20px;
+background-color:#4d96f0;
+border:2px solid blue;
+border-radius:25px;
+margin:auto;
+visibility:hidden;
+position:fixed;
+left:35%;
+}
+
+#savedEvent{
+width:500px;
+padding:10px;
+background-color:#6be3b3;
+border:2px solid green;
+border-radius:25px;
+}
+
+textarea {
+    resize: vertical;
+    overflow: auto;
+}
+
+#ane{
+color:white;}
+
+.save{
+text-align:right;}
+.cancel{
+text-align:right;}
+
+
+.form-control{
+margin-top: 5px;
+ margin-bottom: 5px;
+}
+
+body{
+background-color:orange;
+}
+

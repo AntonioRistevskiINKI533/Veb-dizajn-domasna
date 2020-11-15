@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="EventReminder.css">
+<script src="EventReminder.js" defer></script>
+</head>
+<body>
+<div class="jumbotron">
+<h1>Events<h1>
+<h2>Антонио Ристевски ИНКИ 533<h2>
+</div>
+
+<div id="allSavedEvents" class="col-sm-4">
+<button type="button" class="btn btn-primary" id="addNewEventButton">Add new event</button>
+</br>
+</br>
+</br>
+</div>
+
+<div id="addEventBox">
+<p id="ane">Add new/edit event</p>
+<div class="row">
+<div class="col-sm-6"><input type="search" class="form-control pull-right" id="EventDate" placeholder="Enter date"></div>
+<div class="col-sm-6"><input type="search" class="form-control pull-right" id="EventTime" placeholder="Event time"></div>
+</div>
+<input class="form-control pull-right" id="EventName" placeholder="Event name">
+<textarea class="form-control" rows="3"  placeholder="Event description" id="EventDescription"></textarea>
+<input class="form-control pull-right" id="EventPicture" placeholder="Enter picture url">
+<div id="btns" class="clearfix">
+<button id="cancelButton" type="button" class="btn btn-danger cancel pull-right">Cancel</button>
+<button id="saveButton" type="button" class="btn btn-primary save pull-right">Save</button>
+</div>
+</div>
+
+</body>
+</html>
